@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 290px;
+    box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.25);
+    height: 302px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+section a{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+input{
+    width: 240px;
+    height: 40px;
+    font-size: 17px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 1);
+    align-items: center;
+    height: 100px;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none   ;
+
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 750px;
+    padding-right: 350px;
+    padding-left: 50px;
+}
+
+.sec1 h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+.sec1 div{
+    display: flex;
+    margin-right: 910px;
+    background: none;
+    box-shadow: none;
+    width: 400px;
+}
+
+.sec1{
+    background-image: url(./slider2\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1360px;  
+    height: 385px;
+}
+
+.sec1 button{
+    background-color: rgba(118, 185, 0, 1);
+    width: 90px;
+    height: 40px;
+    border: none;
+    margin-bottom: 60px;
+    margin-right: 300px;
+    font-weight: 700;
+}
+
+.sec5 img{
+    width: 704px;
+    height: 300px;
+    
+}
+
+.sec5{
+    background-color: #fff;
+    margin-top: 100px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    background-color: rgb(240, 233, 233);
+}
+
+.sec5 div{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.sec5 p{
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.sec5 button{
+    background-color: rgba(118, 185, 0, 1);
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-bottom: 60px;
+    margin-right: 300px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+button:active{
+    background-color: black;
+    color: rgba(103, 185, 0, 1);
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 93%;
+    margin-left: 55px;
+}
+footer a{
+    text-decoration: none;
+    color: rgba(102, 102, 102, 1);
+    font-weight: 650;
+
+}
